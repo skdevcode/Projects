@@ -1,0 +1,59 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32744 bytes for Chunk::new
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#
+#  
+]Stack: [0x000000ab37f00000,0x000000ab38000000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x69887a]
+V  [jvm.dll+0x7f38bd]
+V  [jvm.dll+0x7f51ce]
+V  [jvm.dll+0x7f5883]
+V  [jvm.dll+0x25ca3f]
+V  [jvm.dll+0xb8c2f]
+V  [jvm.dll+0xb8fa5]
+V  [jvm.dll+0x7600bc]
+V  [jvm.dll+0x7601a9]
+V  [jvm.dll+0x64e439]
+V  [jvm.dll+0x2430a6]
+V  [jvm.dll+0x243627]
+V  [jvm.dll+0x7f3758]
+V  [jvm.dll+0x7f51ce]
+V  [jvm.dll+0x7f5883]
+V  [jvm.dll+0x25ca3f]
+V  [jvm.dll+0xb8c2f]
+V  [jvm.dll+0xb8fa5]
+V  [jvm.dll+0x14c5a0]
+V  [jvm.dll+0x156e98]
+V  [jvm.dll+0x154aae]
+V  [jvm.dll+0x152cfc]
+V  [jvm.dll+0x15b6ed]
+V  [jvm.dll+0x15ac15]
+V  [jvm.dll+0x15255e]
+V  [jvm.dll+0x154b09]
+V  [jvm.dll+0x152cfc]
+V  [jvm.dll+0x15b6ed]
+V  [jvm.dll+0x15ac15]
+V  [jvm.dll+0x15255e]
+V  [jvm.dll+0x154b09]
+V  [jvm.dll+0x152df4]
+V  [jvm.dll+0x14cbd6]
+V  [jvm.dll+0x15c7f6]
+V  [jvm.dll+0x1482e0]
+V  [jvm.dll+0x148640]
+V  [jvm.dll+0x148926]
+V  [jvm.dll+0x147d9a]
+V  [jvm.dll+0x149a81]
+V  [jvm.dll+0x23e8ca]
+V  [jvm.dll+0x23cbb5]
+V  [jvm.dll+0x7a5fb1]
+V  [jvm.dll+0x7a03ea]
